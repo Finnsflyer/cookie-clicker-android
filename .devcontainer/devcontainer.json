@@ -1,0 +1,20 @@
+{
+  "name": "Android Cookie Clicker",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17",
+      "jdkDistro": "msopenjdk"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "com.google.androidstudio",
+        "vscjava.vscode-gradle",
+        "redhat.java"
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup-android.sh"
+}

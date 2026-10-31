@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cookie Clicker</string>
+    <string name="cookies_format">Cookies: %1$d</string>
+    <string name="click_power_format">Click power: %1$d cookie(s)</string>
+    <string name="auto_click_format">Auto-click: %1$d cookie(s)/s</string>
+    <string name="buy_click_upgrade">Buy click upgrade (%1$d)</string>
+    <string name="buy_auto_upgrade">Buy auto baker (%1$d)</string>
+</resources>
